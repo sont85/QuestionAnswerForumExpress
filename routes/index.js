@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 var MD5 = require("MD5");
 var slug = require("slug");
 
-mongoose.connect(process.env.MONGO_URL);
+mongoose.connect(process.env.MONGOLAB_URI);
 // mongoose.connect('mongodb:/localhost/test');
 
 // var User = mongoose.model("users", { name: String });
